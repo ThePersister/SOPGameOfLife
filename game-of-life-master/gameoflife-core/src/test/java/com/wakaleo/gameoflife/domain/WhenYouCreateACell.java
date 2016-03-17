@@ -10,6 +10,12 @@ import org.junit.Test;
 public class WhenYouCreateACell {
 
     @Test
+    public void aTestThatDoesNothingShouldWork() {
+        int i = 1;
+        assertThat(i, is(1));
+    }
+    
+    @Test
     public void aLiveCellShouldBeRepresentedByAnAsterisk() {
         Cell cell = Cell.fromSymbol("*");
         assertThat(cell, is(LIVE_CELL));
