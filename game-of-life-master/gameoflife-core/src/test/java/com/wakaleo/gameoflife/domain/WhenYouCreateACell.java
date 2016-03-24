@@ -11,8 +11,8 @@ public class WhenYouCreateACell {
 
     @Test
     public void aTestThatDoesNothingShouldWork() {
-        int i = 14;
-        assertThat(i, is(14));
+        int i = 15;
+        assertThat(i, is(15));
     }
     
     @Test
