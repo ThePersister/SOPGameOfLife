@@ -159,7 +159,7 @@
     <dependencies>
         <dependency>
             <groupId>org.codehaus.cargo</groupId>
-            <artifactId>cargo-maven2-plugin</artifactId>
+            <artifactId>cargo-core-uberjar</artifactId>
             <version>1.4.19</version>
         </dependency>
         <dependency>
